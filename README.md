@@ -26,7 +26,7 @@ This library implements industry standard practices using CMake as a build syste
 auto x = ejovo::linspace(0, trig::two_pi);
 ejovo::plot(x, x.map(cos));
 ```
-![cosine curve between 0 and two pi](./Cosine.png)
+![cosine curve between 0 and two pi](./Cosine.png | width=100)
 
 ### sousmarin
 This group project is an exploration of Monte Carlo methods and how a deterministic computer generates pseudo-random numbers. Using R we create a `shiny` app that simulates samples taken from a multivariable guassian distribution to estimate the length of an underwater cable laid between two modern cities separated by a large body of water. I learned R's approach to the functional programming paradigm and also learned how to compile C++ code using the R package `Rcpp` to speed up mission-critical segments of code.
