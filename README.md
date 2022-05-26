@@ -40,7 +40,7 @@ ejovo::integrate(f, 0, 3) // use 5 point Gauss-Legendre quadrature rule as defau
 This group project is an exploration of Monte Carlo methods and how a deterministic computer generates pseudo-random numbers. Using R we create a `shiny` app that simulates samples taken from a multivariable guassian distribution to estimate the length of an underwater cable laid between two modern cities separated by a large body of water. I learned R's approach to the functional programming paradigm and also learned how to compile C++ code using the R package `Rcpp` to speed up mission-critical segments of code.
 | col 1 | col 2 | -- |
 |---- | --- | --- |
-| ![gauss](gauss_field_exp2.png) | ![col2](gauss_field_gauss2.png) | ![col3](gauss_field_sph1.png) |
+| ![gauss](gauss-field_exp2.png) | ![col2](gauss-field_gauss2.png) | ![col3](gauss-field_sph1.png) |
 
  ##### Past
  ***
