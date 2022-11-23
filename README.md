@@ -1,6 +1,6 @@
 ![](16_minus0.png)
 
-![](https://github.com/ejovo13/mpi_project_1/blob/main/tex/media/gif/sph_600.gif)
+https://github.com/ejovo13/mpi_project_1/blob/main/tex/media/gif/sph_600.gif
 
  ## About Me
  - Training as a Numerical Analyst
