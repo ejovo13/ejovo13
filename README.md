@@ -3,8 +3,7 @@
 
 | Hi | Hi2 | Hi3 |
 | --- | --- | --- |
-| ![](https://github.com/ejovo13/mpi_project_1/blob/main/tex/media/gif/sph_600.gif) | ![](https://github.com/ejovo13/mpi_project_1/blob/main/tex/media/gif/sph_600_2.gif) |
-![](https://github.com/ejovo13/mpi_project_1/blob/main/tex/media/gif/sph_600_alt.gif) |
+| ![](https://github.com/ejovo13/mpi_project_1/blob/main/tex/media/gif/sph_600.gif) | ![](https://github.com/ejovo13/mpi_project_1/blob/main/tex/media/gif/sph_600_2.gif) | ![](https://github.com/ejovo13/mpi_project_1/blob/main/tex/media/gif/sph_600_alt.gif) |
 
  ## About Me
  - Training as a Numerical Analyst
