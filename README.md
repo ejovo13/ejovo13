@@ -5,9 +5,7 @@
 
  ## Projects in Scientific Computing
 
- ### C
- 
- #### [Geodesy](https://github.com/ejovo13/geodesy)
+ ### [Geodesy](https://github.com/ejovo13/geodesy) \[C\]
  
    HPC model of planet earth using a 3-d spherical harmonics decomposition and using a scalable parallel implentation that's
   been tested with up to 248 MPI processes. 
@@ -27,18 +25,12 @@ This is exactly analagous with a Fourier series for functions defined on the sph
 Caption: Model of planet Earth using increasingly precise Laplace series approximations. As we increase the number of terms in our discrete Laplace series, we can better approximate the true altitude function.
 
  
- #### [libejovo](https://github.com/ejovo13/libejovo)
+ ### [libejovo](https://github.com/ejovo13/libejovo) \[C\]
   Numerical routines spanning a broad range of topics in scientific computing from quadrature to linear least squares. libejovo is build around a foundational `Matrix_<type>`, where `<type>` can be be `d`, `f`, or `i`, representing two dimensional matrices of type `double`, `float`, and `int`. 
-  ***
- ### C++
- 
- #### [libejovo++](https://github.com/ejovo13/libejovopp)
-  A C++ templated implementation of libejovo using modern C++. 
   
- *** 
- ### R
- 
- #### [sousmarin](https://github.com/ejovo13/sousmarin)
+  ***
+
+ ### [sousmarin](https://github.com/ejovo13/sousmarin) \[R\]
 An exploration of Monte Carlo methods and how a deterministic computer generates pseudo-random numbers. Using R we create a `shiny` app that simulates samples taken from a multivariable guassian distribution to estimate the length of an underwater cable laid between two modern cities separated by a large body of water. We experience R's approach to the functional programming paradigm and also learned how to compile C++ code using the R package `Rcpp` to speed up mission-critical segments of code.
 | col 1 | col 2 | -- |
 |---- | --- | --- |
@@ -46,9 +38,7 @@ An exploration of Monte Carlo methods and how a deterministic computer generates
  
  ***
   
- ### MATLAB
-  
- #### [viruses](https://github.com/ejovo13/viruses)
+ ### [viruses](https://github.com/ejovo13/viruses) \[MATLAB\]
  
   Study of the spherical harmonic decomposition of virus normal modes
  
@@ -58,17 +48,15 @@ An exploration of Monte Carlo methods and how a deterministic computer generates
 | --- | --- |
 |![](https://github.com/ejovo13/viruses/blob/master/%2Bejovo/media/spherical_combination.png)  | ![](https://github.com/ejovo13/viruses/blob/master/%2Bejovo/media/saf6_animation.gif) |
 
-### Fortran
 
- ### `Foreng`/`Formath`
+ ### `Foreng`/`Formath` \[Fortran\]
  `Foreng` is a series of solutions to exercises for the book Fortran for [Scientists and Engineers](https://www.amazon.com/FORTRAN-SCIENTISTS-ENGINEERS-Stephen-Chapman/dp/0073385891) written to practice and learn the revered Fortran programming language. This project taught me how to write numeric programs in Fortran like calculating finite difference derivates, steady-state diffusion problems, computations of orbits, etc. There is even a chapter of exercices dedicated to using Coarrays and the OpenMP protocol. `Formath` is a continuation of my interest in Fortran and is a library written to practice modern fortran and fundamental linear algebra routines like Gaussian elimination, Gram-Schmidt orthogonalization, Householder Reflections, and many more.
-
 
 
  #### Current
  ***
   
- ### `libejovo++`
+ ### `libejovo++` \[C++\]
  A complete synthesis of the numeric methods and theoretical concepts learned while pursuing a masters in scientific computing. Written in C++20 with heavy utilisation of lambdas and adaptation to modern C++ practices (smart-pointers, concepts, template programming), this library concretizes the core concepts of my diploma. With a robust 2-dimensional Matrix library at its heart (with implementations of Matrix decompositions, direct and iterative methods, eigenvalue algorithms), this library provides numerous core modules needed invaluable for a scientific library:
  - discretization routines like `linspace` and `seq`
  - quadrature routines using both Newton-Cotes and Gaussian methods
