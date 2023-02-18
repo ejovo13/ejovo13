@@ -1,7 +1,3 @@
-|  | | |
-| --- | --- | --- |
-| ![](sph_600.gif) | ![](sph_600_2.gif) | ![](sph_600_alt.gif) |
-
  ## About Me
  - Training as a Numerical Analyst
  - Seeking a Master of Engineering degree in Applied Mathematics and Computer Science
@@ -12,11 +8,27 @@
  ### C
  
  #### [Geodesy](https://github.com/ejovo13/geodesy)
-  HPC model of planet earth using a 3-d spherical harmonics decomposition and using a scalable parallel implentation that's
+ 
+   HPC model of planet earth using a 3-d spherical harmonics decomposition and using a scalable parallel implentation that's
   been tested with up to 248 MPI processes. 
+  
+  In short, we approximate a function (in this case the altitude of the earth at a given location)
+  by a sum of spherical harmonics. 
+  
+  ![image](https://user-images.githubusercontent.com/40283612/219856868-b7da6373-30dc-4eb4-87f5-3f9a6c1ffde3.png)
+  
+This is exactly analagous with a Fourier series for functions defined on the sphere. Our
+  function f(longitude, latitude) is defined on the sphere and can be written as an infinite sum of the basis functions, in this case the spherical harmonics. The models were built using NASA's ETOP01 data set and parallel programming techniques using both OpenMP and OpenMPI.
+ 
+|  | | |
+| --- | --- | --- |
+| ![](sph_600.gif) | ![](sph_600_2.gif) | ![](sph_600_alt.gif) |
+
+Caption: Model of planet Earth using increasingly precise Laplace series approximations. As we increase the number of terms in our discrete Laplace series, we can better approximate the true altitude function.
+
  
  #### [libejovo](https://github.com/ejovo13/libejovo)
-  Numerical routines ranging a broad range of topics in scientific computing from quadrature to linear least squares. libejovo is build around a foundational `Matrix_<type>`, where `<type>` can be be `d`, `f`, or `i`, representing two dimensional matrices of type `double`, `float`, and `int`. 
+  Numerical routines spanning a broad range of topics in scientific computing from quadrature to linear least squares. libejovo is build around a foundational `Matrix_<type>`, where `<type>` can be be `d`, `f`, or `i`, representing two dimensional matrices of type `double`, `float`, and `int`. 
   ***
  ### C++
  
